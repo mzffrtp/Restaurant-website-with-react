@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+    background-color: aquamarine;
+}
+
+.navbarRight a {
+    margin-right: 15px;
+    color: crimson;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: yellow;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.navbarRight a:hover {
+    background-color: crimson;
+    color: yellow;
+    cursor: pointer;
+}
+
+.navimg {
+    width: 75px;
+    border-radius: 100%;
+    margin-left: 400px;
+}
+
+.menuBar {
+    display: none;
+}
+
+@media screen and (max-width: 585px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbarRight {
+        display: flex;
+        margin: 10px 0px;
+    }
+
+    .navimg {
+        margin-left: 0px;
+    }
+}
