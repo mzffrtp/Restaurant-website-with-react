@@ -1,10 +1,91 @@
 .home {
-    width:100%;
-    height: 130vh;
+    width: 100%;
+    height: 83vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.mainContainer {
+    width: auto;
+    margin-left: 20px;
+}
+
+.mainContainer h1 {
+    font-size: 6rem;
+    height: 60px;
+    font-weight: 300;
+    color: magenta;
+}
+
+.mainContainer p {
+    font-size: 2rem;
+    color: greenyellow;
+    margin: 3.5rem 0 1rem 0;
+}
+
+.mainContainer button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: beige;
+    height: 3.5rem;
+    width: 12rem;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.mainContainer button:hover {
+    background-color: beige;
+    color: black;
+    font-weight: bolder;
+}
+
+.mainContainer img {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: beige;
+    width: 7rem;
+    z-index: 1;
+}
+
+@media screen and (min-width: 585px) {
+    .mainContainer {
+        margin-top: -300px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+    .home {
+        width: 100%;
+        height: 73vh;
+        
+    }
+    .mainContainer {
+        margin: 20px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainContainer h1 {
+        font-size: 5rem;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+
+    .mainContainer img {
+        display: none;
+    }
+    .mainContainer button {
+        margin-bottom: 2rem;
+    }
+    
 }

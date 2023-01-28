@@ -1,0 +1,8 @@
+
+.github:hover{
+    background-color: yellow;
+}
+
+.footer p:hover{
+    background-color: aquamarine;
+}
