@@ -1,0 +1,77 @@
+
+const Data = [
+    {
+      id: 1,
+      title: 'pancake honey',
+      category: 'breakfast',
+      price: 19.99,
+      img:"https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908__340.jpg",
+      desc: `flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter often frying with oil or butter.`,
+    },
+    {
+      id: 2,
+      title: 'hungry burger',
+      category: 'lunch',
+      price: 17.55,
+      img: 'https://cdn.pixabay.com/photo/2018/05/30/19/18/burger-3442227__340.jpg',
+      desc: `grilled hamburger with %100 beef marined for 3 days with milk and different flaviuors making it special and with gluten-free bread, also served with fries and a drink`,
+    },
+    {
+      id: 3,
+      title: 'pink sweety',
+      category: 'desert',
+      price: 7.99,
+      img: 'https://cdn.pixabay.com/photo/2017/08/05/19/01/milk-2585114_960_720.jpg',
+      desc: `...made by blending milk, ice cream, and flavorings.topped with a strawberry..`,
+    },
+    {
+      id: 4,
+      title: 'country thoughts',
+      category: 'breakfast',
+      price: 20.99,
+      img: 'https://cdn.pixabay.com/photo/2020/04/22/22/08/cafe-5080266__340.jpg',
+      desc: `Country breakfst in grandma's style. Friendly with the service, sit around and enjoy traditions... `,
+    },
+    {
+      id: 5,
+      title: 'chicken lover',
+      category: 'lunch',
+      price: 19.00,
+      img: 'https://cdn.pixabay.com/photo/2019/05/26/20/10/meat-4231141__340.jpg',
+      desc: `boneless chicken breasts marinaded with ensure tender, juicy, and flavorful, topped with cheese or sliced over a Caesar salad. `,
+    },
+    {
+      id: 6,
+      title: ' dream baklava',
+      category: 'desert',
+      price: 23.99,
+      img: 'https://cdn.pixabay.com/photo/2019/05/06/14/07/walnut-baklava-4183184__340.jpg',
+      desc: `layers of phyllo dough filled with a mixture of chopped walnuts, cinnamon, and sugar.  ..baked until golden and soaked in a syrup made of honey...`,
+    },
+    {
+      id: 7,
+      title: 'musli fruits',
+      category: 'breakfast',
+      price: 11.59,
+      img: 'https://cdn.pixabay.com/photo/2017/07/27/17/30/tray-2546077__340.jpg',
+      desc: `breakfast cereal made from chopped nuts, dried fruit, and grains... `,
+    },
+    {
+      id: 8,
+      title: 'not just a soup',
+      category: 'lunch',
+      price: 12.99,
+      img: 'https://cdn.pixabay.com/photo/2017/11/23/13/50/pumpkin-soup-2972858__340.jpg',
+      desc: `Turkish Red Lentil Soup with lentils, veggies, and spices, served with a squeeze of lemon. a gluten free and vegan soup`,
+    },
+    {
+      id: 9,
+      title: 'turkish delight',
+      category: 'desert',
+      price: 16.99,
+      img: 'https://cdn.pixabay.com/photo/2021/12/08/10/45/cake-6855332__340.jpg',
+      desc: `jellylike or gummy confection usually cut in cubes and dusted with sugar served with Turkish coffee.`,
+    },
+  ];
+  export default Data;
+  

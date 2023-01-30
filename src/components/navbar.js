@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="navberLeft d-flex justify-content-between align-items-center gap-5">
                 <div className="d-flex align-items-center gap-2">
                     <img src={logo} style={{ width: "100px" }} />
-                    <h1 style={{ color: "crimson" }}>com€@t</h1>
+                    <h1 style={{ color: "crimson" }}>com€at</h1>
                 </div>
                 <div>
                     <img className="navimg" src={delicious} />

@@ -1,13 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import deliver from "../assets/imgs/deliveryr.png";
-import background from "../assets/imgs/background.jpg";
+import background from "../assets/imgs/backgh.jpg";
 import "../assets/styles/home.css"
-
-
-
-
 
 const Home = () => {
     return (
@@ -18,7 +13,6 @@ const Home = () => {
                 <div className="orderBox">
                     <Link to={"/menu"}>
                         <button>Order now</button>
-                        <img src={deliver} style={{ marginLeft: "70px" }} />
                     </Link>
                 </div>
             </div>
