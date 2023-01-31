@@ -9,7 +9,7 @@
 - responsive and UI in components/pages, bootstrap, css for styling
 
 #### Definition
-User can choose different menus per his/her wish at menu page. Differents variations can be rendered at he page when customer clicks on options  like  breakfast, lunch and desert.
+User can choose different menus per his/her wish at menu page. Differents variations can be rendered at the page when customer clicks on options  like  breakfast, lunch and desert.
 
 Enjoy screen gif.
 
